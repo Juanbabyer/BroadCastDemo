@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_circle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.broadcastdemo.CircleActivity">
+<com.example.administrator.broadcastdemo.CircleView
+    android:layout_width="200dp"
+    android:layout_height="200dp" />
+    <Button
+        android:id="@+id/bt_animation"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="属性动画"/>
+    <ImageView
+        android:id="@+id/iv_animation"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="#f0f"/>
+</LinearLayout>

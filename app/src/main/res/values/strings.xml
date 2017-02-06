@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BroadCastDemo</string>
+    <string name="action_movie">com.example.administrator.broadcastdemo.movie</string>
+</resources>
