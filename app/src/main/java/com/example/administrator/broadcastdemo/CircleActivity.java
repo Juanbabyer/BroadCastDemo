@@ -9,6 +9,7 @@ import android.view.animation.AlphaAnimation;
 import android.widget.ImageView;
 
 public class CircleActivity extends AppCompatActivity {
+
     ImageView iv_animation;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
